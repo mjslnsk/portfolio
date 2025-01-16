@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, ExternalLink, ChevronDown, Code, Briefcase, Use
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-pink-500">
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center relative bg-gradient-to-br from-blue-50 to-indigo-50 px-4">
         <div className="max-w-6xl mx-auto w-full">
@@ -64,7 +64,7 @@ function App() {
       </section>
 
       {/* Skills Section */}
-      <section className="py-20 px-4 bg-white" id="skills">
+      <section className="py-20 px-4 bg-pink-500" id="skills">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center gap-2 mb-8">
             <Code className="text-indigo-600" size={24} />
@@ -72,7 +72,7 @@ function App() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {['JavaScript', 'TypeScript', 'React', 'Node.js', 'Python', 'AWS', 'Docker', 'GraphQL'].map((skill) => (
-              <div key={skill} className="p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <div key={skill} className="p-4 bg-pink-500 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <p className="text-lg font-medium text-gray-800">{skill}</p>
               </div>
             ))}
