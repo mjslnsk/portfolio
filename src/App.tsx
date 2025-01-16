@@ -123,14 +123,13 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-white py-8 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <p className="text-gray-600">
-            © {new Date().getFullYear()} mjslnsk
-          . All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <footer className="bg-pink-500 py-4">
+  <div className="max-w-6xl mx-auto text-center">
+    <p className="text-white text-sm">
+      © {new Date().getFullYear()} mjslnsk. All rights reserved.
+    </p>
+  </div>
+</footer>
     </div>
   );
 }
