@@ -8,22 +8,23 @@ function App() {
       <section className="min-h-screen flex flex-col justify-center relative bg-gradient-to-br from-blue-50 to-indigo-50 px-4">
         <div className="max-w-6xl mx-auto w-full">
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
-            Hi, I'm <span className="text-indigo-600">John Doe</span>
+            Hi, I'm <span className="text-indigo-300">Maja - Junior UI/UX Designer from Slovenia.</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-2xl">
-            Full Stack Developer specializing in building exceptional digital experiences.
-            Currently focused on building accessible, human-centered products.
+             I’m passionate about creating tailored digital solutions for users and businesses across diverse industries. <br></br>
+                With a keen eye for aesthetics and functionality, <br></br>
+                I focus on designing engaging, intuitive, and conversion-driven experiences.
           </p>
           <div className="flex gap-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+            <a href="https://instagram.com/majasselin" target="_blank" rel="noopener noreferrer" 
                className="p-2 text-gray-700 hover:text-indigo-600 transition-colors">
-              <Github size={24} />
+              <Instagram size={24} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://linkedin.com/in/majaselinsek?originalSubdomain=Si" target="_blank" rel="noopener noreferrer"
                className="p-2 text-gray-700 hover:text-indigo-600 transition-colors">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:contact@example.com"
+            <a href="mailto:maja.selinsek@gmail.com"
                className="p-2 text-gray-700 hover:text-indigo-600 transition-colors">
               <Mail size={24} />
             </a>
@@ -51,12 +52,12 @@ function App() {
             </div>
             <div className="flex flex-col justify-center">
               <p className="text-lg text-gray-700 mb-6">
-                I'm a passionate Full Stack Developer with 5 years of experience building web applications.
-                I enjoy turning complex problems into simple, beautiful, and intuitive solutions.
+               Hi, I'm Maja - Junior UI/UX Designer from Slovenia.
               </p>
               <p className="text-lg text-gray-700">
-                When I'm not coding, you'll find me exploring new technologies, contributing to open-source
-                projects, or sharing my knowledge through technical writing.
+                I’m passionate about creating tailored digital solutions for users and businesses across diverse industries. <br></br>
+                With a keen eye for aesthetics and functionality, <br></br>
+                I focus on designing engaging, intuitive, and conversion-driven experiences.
               </p>
             </div>
           </div>
@@ -97,6 +98,25 @@ function App() {
               },
               {
                 title: 'Task Management App',
+                description: 'A collaborative task management application with real-time updates',
+                image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+                link: 'https://github.com'
+              },
+      {
+                title: 'Projekt 2',
+                description: 'A collaborative task management application with real-time updates',
+                image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+                link: 'https://github.com'
+              },
+      {
+                title: 'Projekt 2',
+                description: 'A collaborative task management application with real-time updates',
+                image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+                link: 'https://github.com'
+              }
+      ,
+      {
+                title: 'Projekt 2',
                 description: 'A collaborative task management application with real-time updates',
                 image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
                 link: 'https://github.com'
