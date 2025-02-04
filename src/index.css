@@ -3,12 +3,15 @@
 @tailwind utilities;
 
 @layer base {
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100..700&family=Pinyon+Script&family=Monofett&family=Pixelify+Sans:wght@400..700&display=swap');
+
   html {
     scroll-behavior: smooth;
   }
   
   body {
     @apply text-gray-900 antialiased;
+    font-family: 'IBM Plex Mono', sans-serif; /* Privzeti font */
   }
 }
 
@@ -20,4 +23,17 @@
   .btn-primary {
     @apply bg-indigo-600 text-white hover:bg-indigo-700;
   }
+}
+
+/* Dodatne klase za različne fonte */
+.font-pinyon {
+  font-family: 'Pinyon Script', cursive;
+}
+
+.font-monofett {
+  font-family: 'Monofett', monospace;
+}
+
+.font-pixel {
+  font-family: 'Pixelify Sans', sans-serif;
 }
