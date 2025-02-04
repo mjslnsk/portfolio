@@ -1,5 +1,6 @@
 import React from 'react';
-import { Github, Linkedin, Mail, ExternalLink, ChevronDown, Code, Briefcase, User } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, ChevronDown, Code, Briefcase, User, Instagram } from 'lucide-react';
+
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
             Hi, I'm <span className="text-indigo-300">Maja - Junior UI/UX Designer from Slovenia.</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-2xl">
-             I’m passionate about creating tailored digital solutions for users and businesses across diverse industries. <br></br>
-                With a keen eye for aesthetics and functionality, <br></br>
+             I’m passionate about creating tailored digital solutions for users and businesses across diverse industries. </br>
+                With a keen eye for aesthetics and functionality, </br>
                 I focus on designing engaging, intuitive, and conversion-driven experiences.
           </p>
           <div className="flex gap-4">
